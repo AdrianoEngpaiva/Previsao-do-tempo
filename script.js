@@ -53,7 +53,7 @@ function colocarDadosNaTela(resposta, clima) {
     document.querySelector(".umidade").innerText = `Umidade: ${umidade}%`;
     document.querySelector(".img-previsao").src = pegarIcone(codigo);
 
-    
+
 }
 function pegarDescricao(codigo) {
     const mapa = {
