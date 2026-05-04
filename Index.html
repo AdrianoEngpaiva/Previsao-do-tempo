@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previsao do Tempo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1163/1163661.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="Caixa-maior">
+
+
+        <div class="busca">
+            <input class="input-cidade" type="text" name="Cidade" id="nomeCidade" placeholder="Digite o nome da cidade">
+            <button class="botaoBusca" onclick="cliqueNoBotao()">
+                <img class="imgBusca" src="https://www.svgrepo.com/show/488200/find.svg" alt="Lupa">
+            </button>
+        </div>
+
+        <div class="caixa-media">
+            <!-- Aqui o nome da cidade irá mudar -->
+            <h2 class="cidade">Digite uma cidade</h2>
+
+            <!-- Aqui a temperatura irá mudar -->
+            <p class="temp">temperatura</p>
+        </div>
+
+
+        <!-- Aqui a descrição do clima irá mudar e a imagem do clima irá mudar -->
+        <div class="caixa-menor">
+            <img class="img-previsao" src="https://cdn-icons-png.flaticon.com/512/869/869869.png" alt="íconeTempo">
+            <p class="descricao-clima">Descrição do clima</p>
+        </div>
+
+        <!-- Aqui a umidade irá mudar -->
+        <p class="umidade">Umidade</p>
+    </div>
+</body>
